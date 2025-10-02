@@ -1,6 +1,6 @@
-import { usePortfolio } from "./PortfolioContext";
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { usePortfolio } from "./hooks/usePortfolio";
 
 export default function Portfolio() {
   const { items, addItem, removeItem } = usePortfolio();

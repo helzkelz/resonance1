@@ -1,5 +1,5 @@
-import { usePortfolio } from "./PortfolioContext";
 import { motion } from "framer-motion";
+import { usePortfolio } from "./hooks/usePortfolio";
 
 export default function PublicPortfolio() {
   const { items } = usePortfolio();

@@ -1,8 +1,8 @@
 import { PortfolioProvider } from "./PortfolioContext";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Portfolio from "./pages/Portfolio";
-import Dashboard from "./pages/Dashboard";
-import PublicPortfolio from "./pages/PublicPortfolio";
+import Portfolio from "./Portfolio";
+import Dashboard from "./Dashboard";
+import PublicPortfolio from "./PublicPortfolio";
 
 export default function App() {
   return (

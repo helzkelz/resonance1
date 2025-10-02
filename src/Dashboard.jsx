@@ -1,4 +1,4 @@
-import { usePortfolio } from "../PortfolioContext";
+import { usePortfolio } from "./PortfolioContext";
 import { motion } from "framer-motion";
 
 export default function Dashboard() {

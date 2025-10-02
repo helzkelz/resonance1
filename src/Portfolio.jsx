@@ -1,4 +1,4 @@
-import { usePortfolio } from "../PortfolioContext";
+import { usePortfolio } from "./PortfolioContext";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
